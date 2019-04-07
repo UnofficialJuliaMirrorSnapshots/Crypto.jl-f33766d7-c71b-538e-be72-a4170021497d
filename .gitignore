@@ -1,0 +1,13 @@
+.DS_Store
+
+# Keep out code coverage files; they are generated on Travis
+*.cov
+
+# Keep out dep builds
+*.dylib
+*.so
+*.dll
+
+# Test executable in deps
+cryptojl
+password
